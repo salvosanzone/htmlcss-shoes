@@ -24,6 +24,7 @@ header {
   position: fixed;
   top: 0;
   padding: 20px 10px;
+  z-index: 1;
 }
 
 li {
@@ -89,3 +90,6 @@ main .box {
   margin: -70px 0;
 }
 
+.text-converse::after{
+  color: green;
+}
