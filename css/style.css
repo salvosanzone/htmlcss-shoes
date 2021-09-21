@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+body {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   height: 100vh;
   background-color: #f80204;
@@ -31,7 +39,7 @@ li {
   float: right;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -54,8 +62,7 @@ main .box {
 
 .box .text h2 {
   color: yellow;
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 28px;
   text-align: center;
 }
 
@@ -74,3 +81,11 @@ main .box {
 .container.yellow {
   background-color: yellow;
 }
+
+.scroll::before{
+  content: "";
+  display: block;
+  height: 70px;
+  margin: -70px 0;
+}
+
