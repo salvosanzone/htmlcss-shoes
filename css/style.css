@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  background-color: #f80204;
+  position: relative;
+  
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(34, 98, 153);
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  line-height: 35px;
+  float: right;
+}
+
+
+  
+.box{
+  width: 25%;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+}
+
+.shoes{
+  height: 80%;
+  background-color: blueviolet;
+}
+
+.text{
+  background-color: cadetblue;
+}
