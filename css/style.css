@@ -38,6 +38,7 @@ li {
   text-align: center;
   line-height: 35px;
   float: right;
+  box-shadow: 3px 3px black;
 }
 
 a {
@@ -90,6 +91,3 @@ main .box {
   margin: -70px 0;
 }
 
-.text-converse::after{
-  color: green;
-}
